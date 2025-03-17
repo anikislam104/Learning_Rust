@@ -1,5 +1,5 @@
-pub fn main(){
-    let mut is_leap_year = false;
+pub fn check_leap_year(){
+    let is_leap_year;
     // take input from user
     println!("Enter a year: ");
     let mut year = String::new();
